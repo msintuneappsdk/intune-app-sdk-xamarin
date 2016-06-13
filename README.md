@@ -1,6 +1,6 @@
-## Using Intune App SDK in beta
+## Using Intune App SDK for Xamarin: 
 
-Once released, the Intune App SDK will be accessible directly from the Xamarin component store. While in beta, developers will be able to add the component locally through the following steps:
+
 
 1.	Download Xamarin-component.exe from [here](https://components.xamarin.com/submit/xpkg) and extract it.
 
@@ -12,8 +12,7 @@ Once released, the Intune App SDK will be accessible directly from the Xamarin c
 
 5.	Select `Edit Components` and add the Intune App SDK component you’ve downloaded locally to your computer.
 
-Note:  Once released, you will be able to add the component directly from the component store in Visual Studio.
-You can now begin building the component into your iOS and Android Xamarin apps.
+
 
 ## Enabling MAM in your iOS mobile app
 1.	In order to initialize the Intune App SDK, you will need to make a call for any API in AppDelegate.cs class e.g.
@@ -51,7 +50,8 @@ For Xamarin Forms and other UI frameworks, we have provided a tool called MAM.Re
 
 1.	Add a reference to the Microsoft.Intune.MAM.Remapper.Tasks nuget package version 0.1.0.0 or greater.
 
-2.	Add the following line to your Android csproj: `<Import Project="$(NugetPack)\\Microsoft.Intune.MAM.Remapper.Tasks.0.1.X.X\\build\\MonoAndroid10\\Microsoft.Intune.MAM.Remapper.targets" />`
+2.	Add the following line to your Android csproj: 
+`<Import Project="$(NugetPack)\\Microsoft.Intune.MAM.Remapper.Tasks.0.1.X.X\\build\\MonoAndroid10\\Microsoft.Intune.MAM.Remapper.targets" />`
 
 3.	Set the build action of the added remapping-config.json file to RemappingConfigFile. The included remapping-config.json only works with Xamarin.Forms. For other UI frameworks, refer to the Readme included with the Remapper nuget package.
 
