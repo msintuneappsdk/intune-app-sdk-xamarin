@@ -22,7 +22,7 @@ You will find that you can enable SDK features without changing your app’s beh
 ## Enabling Intune MAM in your iOS mobile app
 1.	In order to initialize the Intune App SDK, you will need to make a call for any API in the `AppDelegate.cs` class. For example:
 
-      ```
+      ```csharp
       public override bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
       {
             Console.WriteLine ("Is Managed: {0}", IntuneMAMPolicyManager.Instance.PrimaryUser != null);
@@ -60,7 +60,7 @@ For Xamarin Forms and other UI frameworks, we have provided a tool called `MAM.R
 1.	Add a reference to the` Microsoft.Intune.MAM.Remapper.Tasks` nuget package version 0.1.0.0 or greater.
 
 2.	Add the following line to your Android csproj:
-  ```
+  ```xml
   <Import
   Project="$(NugetPack)\\Microsoft.Intune.MAM.Remapper.Tasks.0.1.X.X\\build\\MonoAndroid10\\Microsoft.Intune.MAM.Remapper.targets" />
   ```
