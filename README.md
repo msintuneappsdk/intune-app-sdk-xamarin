@@ -21,15 +21,19 @@ You will find that you can enable SDK features without changing your app’s beh
 
 ## Enabling Intune MAM in your iOS mobile app
 1.	In order to initialize the Intune App SDK, you will need to make a call for any API in the `AppDelegate.cs` class. For example:
-      ```C#
+
+      ```
       public override bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
       {
             Console.WriteLine ("Is Managed: {0}", IntuneMAMPolicyManager.Instance.PrimaryUser != null);
             return true;
       }
+
       ```
+
 2.	Now that the component is added and initialized, you can follow the general steps required for building the App SDK into an iOS mobile app. You can find the full documentation for enabling native iOS apps in the [Intune App SDK for iOS Developer Guide](https://docs.microsoft.com/en-us/intune/develop/intune-app-sdk-ios).
 3. **Note**: There are several modifications specific to Xamarin-based iOS apps. For instance, when enabling keychain groups, you'll need to add the following to include the Xamarin sample app we included in the component. Below is an example of the groups you would need to have in your Keychain Access groups:
+
       ```xml
       <?xml version="1.0" encoding="UTF-8"?>
       <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
