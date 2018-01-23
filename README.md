@@ -1,6 +1,6 @@
 # Microsoft Intune App SDK Xamarin Component
 
-Version [1.1.0.0](https://github.com/msintuneappsdk/intune-app-sdk-xamarin/releases)
+Version [2.1.0.0](https://github.com/msintuneappsdk/intune-app-sdk-xamarin/releases)
 
 See [release notes](https://github.com/msintuneappsdk/intune-app-sdk-xamarin/releases) for more information.
  
