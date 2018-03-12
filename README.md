@@ -1,7 +1,5 @@
 # Microsoft Intune App SDK Xamarin Component
 
-Version [2.1.0.0](https://github.com/msintuneappsdk/intune-app-sdk-xamarin/releases)
-
 See [release notes](https://github.com/msintuneappsdk/intune-app-sdk-xamarin/releases) for more information.
  
 The Microsoft Intune App SDK Xamarin Component enables data protection features and mobile app management via Microsoft Intune for Xamarin-based apps on iOS and Android.
