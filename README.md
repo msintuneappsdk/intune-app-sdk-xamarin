@@ -2,6 +2,8 @@
 
 See [release notes](https://github.com/msintuneappsdk/intune-app-sdk-xamarin/releases) for more information.
  
+> This version of the Intune App SDK Xamarin Bindings supports up to Android API 27/Android 8.1 and iOS 12. 
+
 The Microsoft Intune App SDK Xamarin Bindings enables data protection features and mobile app management via Microsoft Intune for Xamarin-based apps on iOS and Android.
 
 Before you install and use Microsoft Intune App SDK Xamarin Bindings you must:
