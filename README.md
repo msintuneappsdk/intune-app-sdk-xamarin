@@ -10,7 +10,7 @@ For apps that target Android 10.0+, please [upgrade your existing apps to .NET M
 
 ## iOS
 
-The Microsoft Intune App SDK Xamarin Bindings enables data protection features and mobile app management via Microsoft Intune for Xamarin-based apps on iOS. The Intune App SDK Bindings for iOS currently **support up to iOS 14.**
+The Microsoft Intune App SDK Xamarin Bindings enables data protection features and mobile app management via Microsoft Intune for Xamarin-based apps on iOS. The Intune App SDK Bindings for iOS currently **support iOS 14 and above.**
 
 Before you install and use Microsoft Intune App SDK Xamarin Bindings you must:
 * Review the [Microsoft License Terms for Microsoft Intune Xamarin Bindings]. Print and retain a copy of the license terms for your records. By downloading and using Microsoft Intune App SDK Xamarin Bindings, you agree to such license terms. If you do not accept them, do not use the software.
